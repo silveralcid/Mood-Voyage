@@ -5,7 +5,7 @@ export default function Home() {
         <div className="max-w-3xl">
           <h1 className="text-5xl font-bold">Mood Voyage</h1>
           <p className="py-6 w-full">
-            Discover the "why" behind your feelings with Mood Voyage, elegantly quantifying emotional needs through scientifically-backed Nonviolent Communication principles. When daily life obscures meaningful introspection, our intuitive approach helps you reconnect with what truly matters.
+            Discover the &quot;why&quot; behind your feelings with Mood Voyage, elegantly quantifying emotional needs through scientifically-backed Nonviolent Communication principles. When daily life obscures meaningful introspection, our intuitive approach helps you reconnect with what truly matters.
           </p>
           <div className="flex justify-center mt-4">
             <a href="https://github.com/silveralcid/Mood-Voyage/" target="_blank" rel="noopener noreferrer">
