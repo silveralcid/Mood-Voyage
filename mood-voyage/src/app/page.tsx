@@ -1,26 +1,19 @@
 export default function Home() {
   return (
     <div className="hero bg-base-200 min-h-screen">
-  <div className="hero-content flex-col lg:flex-row-reverse">
-    <div className="text-center lg:text-left">
-      <h1 className="text-5xl font-bold">Begin Your Voyage Soon</h1>
-      <p className="py-6">
-      Lost in your feelings? Mood Voyage helps you quantify emotional needs through science-backed principles, turning daily confusion into meaningful insights. Sign up for updates.
-      </p>
-    </div>
-    <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-      <div className="card-body">
-        <fieldset className="fieldset">
-          <label className="fieldset-label">Email</label>
-          <input type="email" className="input" placeholder="Email" />
-          <label className="fieldset-label">Password</label>
-          <input type="password" className="input" placeholder="Password" />
-          <div><a className="link link-hover">Forgot password?</a></div>
-          <button className="btn btn-neutral mt-4">Login</button>
-        </fieldset>
+      <div className="hero-content text-center">
+        <div className="max-w-3xl">
+          <h1 className="text-5xl font-bold">Mood Voyage</h1>
+          <p className="py-6 w-full">
+            Discover the "why" behind your feelings with Mood Voyage, elegantly quantifying emotional needs through scientifically-backed Nonviolent Communication principles. When daily life obscures meaningful introspection, our intuitive approach helps you reconnect with what truly matters.
+          </p>
+          <div className="flex justify-center mt-4">
+            <a href="https://github.com/silveralcid/Mood-Voyage/" target="_blank" rel="noopener noreferrer">
+              <img src="https://img.shields.io/github/stars/silveralcid/mood-voyage?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repo" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
   );
 }
