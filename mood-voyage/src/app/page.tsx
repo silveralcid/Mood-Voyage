@@ -3,6 +3,8 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Heart, BarChart2, Bell, BookOpen, Lock, ArrowRight, CheckCircle, Menu } from "lucide-react"
 // import EmailSignupForm from "@/components/email-signup-form"
+import GitHubStarBadge from "@/components/github-star-badge"
+
 
 export default function LandingPage() {
   return (
@@ -16,7 +18,7 @@ export default function LandingPage() {
             </Link>
           </div>
 
-          <nav className="hidden md:flex gap-6">
+          <nav className="hidden lg:flex gap-6">
             <Link href="#features" className="text-sm font-medium hover:text-primary">
               Features
             </Link>
@@ -32,10 +34,11 @@ export default function LandingPage() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <Button asChild className="hidden md:flex">
+          <GitHubStarBadge repo="silveralcid/Mood-Voyage" className="hidden sm:flex" />
+            <Button asChild className="hidden lg:flex">
               <Link href="#signup">Join Waitlist</Link>
             </Button>
-            <Button variant="ghost" size="icon" className="md:hidden">
+            <Button variant="ghost" size="icon" className="lg:hidden">
               <Menu className="h-5 w-5" />
               <span className="sr-only">Toggle menu</span>
             </Button>
