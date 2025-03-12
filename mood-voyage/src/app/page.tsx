@@ -11,7 +11,9 @@ export default function LandingPage() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Heart className="h-6 w-6 text-primary" />
-            <span className="text-xl font-bold">Mood Voyage</span>
+            <Link href="#" className="text-xl font-bold">
+              Mood Voyage
+            </Link>
           </div>
 
           <nav className="hidden md:flex gap-6">
@@ -79,7 +81,7 @@ export default function LandingPage() {
 
 
         {/* Features Section */}
-        <section id="features" className="w-full h-scre py-12 md:py-24 lg:py-32">
+        <section id="features" className="w-full h-scre py-12 md:py-24 lg:py-32 md:min-h-screen flex items-center justify-center">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -155,7 +157,7 @@ export default function LandingPage() {
         </section>
 
         {/* About NVC Section */}
-        <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-muted md:min-h-screen flex items-center justify-center">
           <div className="container px-4 md:px-6">
             <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
               <div className="space-y-4">
@@ -203,7 +205,7 @@ export default function LandingPage() {
         </section>
 
         {/* Benefits Section */}
-        <section id="benefits" className="w-full py-12 md:py-24 lg:py-32">
+        <section id="benefits" className="w-full py-12 md:py-24 lg:py-32 md:min-h-screen flex items-center justify-center">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -272,7 +274,7 @@ export default function LandingPage() {
         </section>
 
         {/* Email Signup Section */}
-        <section id="signup" className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
+        <section id="signup" className="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground md:min-h-screen flex items-center justify-center">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center gap-8 text-center">
               <div className="flex flex-col gap-6">
@@ -303,13 +305,13 @@ export default function LandingPage() {
           </div>
 
           <nav className="flex gap-4 sm:gap-6">
-            <Link href="#" className="text-sm font-medium hover:underline underline-offset-4">
+            <Link href="/privacy-policy" className="text-sm font-medium hover:underline underline-offset-4">
               Privacy Policy
             </Link>
-            <Link href="#" className="text-sm font-medium hover:underline underline-offset-4">
+            <Link href="/terms-of-service" className="text-sm font-medium hover:underline underline-offset-4">
               Terms of Service
             </Link>
-            <Link href="#" className="text-sm font-medium hover:underline underline-offset-4">
+            <Link href="/contact" className="text-sm font-medium hover:underline underline-offset-4">
               Contact
             </Link>
           </nav>
