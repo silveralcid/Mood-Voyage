@@ -45,7 +45,7 @@ export default function NotFound() {
               <h1 className="text-6xl font-bold tracking-tighter text-primary">404</h1>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Page Not Found</h2>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed mx-auto">
-                Oops! The page you're looking for seems to have wandered off on its own emotional journey.
+                Oops! The page you&apos;re looking for seems to have wandered off on its own emotional journey.
               </p>
             </div>
 
@@ -76,7 +76,7 @@ export default function NotFound() {
 
             <div className="rounded-lg border p-4 bg-muted/50 max-w-md">
               <p className="text-sm text-muted-foreground">
-                If you believe this is an error, please contact our support team and we'll help guide you back to your
+                If you believe this is an error, please contact our support team and we&apos;ll help guide you back to your
                 emotional center.
               </p>
             </div>

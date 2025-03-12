@@ -54,7 +54,7 @@ export default function EmailSignupForm() {
         <div className="flex flex-col items-center space-y-4 p-4 rounded-lg bg-primary-foreground text-primary">
           <CheckCircle2 className="h-12 w-12 text-primary" />
           <h3 className="text-xl font-bold">Thank You for Joining!</h3>
-          <p>We'll keep you updated on our launch and send you early access information.</p>
+          <p>We&apos;ll keep you updated on our launch and send you early access information.</p>
           <Button variant="outline" onClick={() => setIsSubmitted(false)} className="mt-2">
             Sign up another email
           </Button>

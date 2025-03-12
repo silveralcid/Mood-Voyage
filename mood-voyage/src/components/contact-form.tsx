@@ -75,7 +75,7 @@ export default function ContactForm() {
         <div className="flex flex-col items-center space-y-4 p-4 rounded-lg bg-primary/10 text-primary">
           <CheckCircle2 className="h-12 w-12 text-primary" />
           <h3 className="text-xl font-bold">Thank You!</h3>
-          <p className="text-center">Your message has been sent. We'll get back to you as soon as possible.</p>
+          <p className="text-center">Your message has been sent. We&apos;ll get back to you as soon as possible.</p>
           <Button variant="outline" onClick={() => setIsSubmitted(false)} className="mt-2">
             Send another message
           </Button>

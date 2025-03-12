@@ -165,7 +165,7 @@ export default function LandingPage() {
                   What is Nonviolent Communication?
                 </h2>
                 <p className="text-muted-foreground md:text-xl">
-                  NVC is a communication approach developed by psychologist Marshall Rosenberg in the 1960s. It's based
+                  NVC is a communication approach developed by psychologist Marshall Rosenberg in the 1960s. It&apos;s based
                   on the idea that all human beings have the capacity for compassion and that our natural state is one
                   of empathy and cooperation.
                 </p>
