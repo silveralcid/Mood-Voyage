@@ -5,7 +5,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
-import { Heart, BarChart2, Bell, BookOpen, Lock, ArrowRight, CheckCircle, Menu, X } from "lucide-react"
+import { Heart, BarChart2, Bell, BookOpen, Lock, ArrowRight, CheckCircle, Menu} from "lucide-react"
 // import EmailSignupForm from "@/components/email-signup-form"
 import GitHubStarBadge from "@/components/github-star-badge"
 
