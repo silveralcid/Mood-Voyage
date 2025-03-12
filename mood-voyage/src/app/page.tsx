@@ -1,50 +1,115 @@
+"use client";
+
+import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Heart, BarChart2, Bell, BookOpen, Lock, ArrowRight, CheckCircle, Menu } from "lucide-react"
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
+import { Heart, BarChart2, Bell, BookOpen, Lock, ArrowRight, CheckCircle, Menu, X } from "lucide-react"
 // import EmailSignupForm from "@/components/email-signup-form"
 import GitHubStarBadge from "@/components/github-star-badge"
 
 
 export default function LandingPage() {
+
+  const [open, setOpen] = useState<boolean>(false);
+
   return (
     <div className="flex min-h-screen flex-col">
-      <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Heart className="h-6 w-6 text-primary" />
-            <Link href="#" className="text-xl font-bold">
-              Mood Voyage
-            </Link>
-          </div>
-
-          <nav className="hidden lg:flex gap-6">
-            <Link href="#features" className="text-sm font-medium hover:text-primary">
-              Features
-            </Link>
-            <Link href="#about" className="text-sm font-medium hover:text-primary">
-              About NVC
-            </Link>
-            <Link href="#benefits" className="text-sm font-medium hover:text-primary">
-              Benefits
-            </Link>
-            <Link href="#signup" className="text-sm font-medium hover:text-primary">
-              Get Updates
-            </Link>
-          </nav>
-
-          <div className="flex items-center gap-4">
-          <GitHubStarBadge repo="silveralcid/Mood-Voyage" className="hidden sm:flex" />
-            <Button asChild className="hidden lg:flex">
-              <Link href="#signup">Join Waitlist</Link>
-            </Button>
-            <Button variant="ghost" size="icon" className="lg:hidden">
-              <Menu className="h-5 w-5" />
-              <span className="sr-only">Toggle menu</span>
-            </Button>
-          </div>
+   <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="container flex h-16 items-center justify-between">
+        <div className="flex items-center gap-2">
+          <Heart className="h-6 w-6 text-primary" />
+          <Link href="#" className="text-xl font-bold">
+            Mood Voyage
+          </Link>
         </div>
-      </header>
+
+        {/* Desktop Navigation (Hidden below lg:1024px) */}
+        <nav className="hidden lg:flex gap-6">
+          <Link href="#features" className="text-sm font-medium hover:text-primary">
+            Features
+          </Link>
+          <Link href="#about" className="text-sm font-medium hover:text-primary">
+            About NVC
+          </Link>
+          <Link href="#benefits" className="text-sm font-medium hover:text-primary">
+            Benefits
+          </Link>
+          <Link href="#signup" className="text-sm font-medium hover:text-primary">
+            Get Updates
+          </Link>
+        </nav>
+
+        <div className="flex items-center gap-4">
+          
+          <GitHubStarBadge repo="silveralcid/mood-voyage" className="hidden lg:flex" />  
+          
+          {/* Hide Join Waitlist below lg */}
+          <Button asChild className="hidden lg:flex">
+            <Link href="#signup">Join Waitlist</Link>
+          </Button>
+
+          {/* Mobile Menu Button (Shown only below lg) */}
+          <Dialog open={open} onOpenChange={setOpen}>
+            <DialogTrigger asChild>
+              <Button variant="ghost" size="icon" className="lg:hidden">
+                <Menu className="h-5 w-5" />
+                <span className="sr-only">Toggle menu</span>
+              </Button>
+            </DialogTrigger>
+
+            {/* Hamburger Menu Pop-Up */}
+            <DialogContent className="sm:max-w-xs p-0 border-none">
+                <div className="flex flex-col h-full bg-background p-6 items-center text-center">
+
+                  {/* Mobile Nav Links */}
+                  <nav className="mt-6 flex flex-col space-y-4">
+                   <Button asChild className="px-3 py-2 text-sm">
+                        <Link href="#signup" onClick={() => setOpen(false)}>
+                          Join Waitlist
+                        </Link>
+                    </Button>
+                    <Link
+                      href="#features"
+                      className="text-lg font-medium hover:text-primary"
+                      onClick={() => setOpen(false)}
+                    >
+                      Features
+                    </Link>
+                    <Link
+                      href="#about"
+                      className="text-lg font-medium hover:text-primary"
+                      onClick={() => setOpen(false)}
+                    >
+                      About NVC
+                    </Link>
+                    <Link
+                      href="#benefits"
+                      className="text-lg font-medium hover:text-primary"
+                      onClick={() => setOpen(false)}
+                    >
+                      Benefits
+                    </Link>
+                    <Link
+                      href="#signup"
+                      className="text-lg font-medium hover:text-primary"
+                      onClick={() => setOpen(false)}
+                    >
+                      Get Updates
+                    </Link>
+                    
+                    <GitHubStarBadge repo="silveralcid/mood-voyage" className="text-sm px-2 py-1" />
+
+                    
+                  </nav>
+                </div>
+              </DialogContent>
+
+          </Dialog>
+        </div>
+      </div>
+    </header>
 
       <main className="flex-1">
       {/* Hero Section */} 
