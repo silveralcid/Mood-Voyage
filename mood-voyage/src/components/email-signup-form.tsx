@@ -59,7 +59,7 @@ export default function EmailSignupForm() {
       setFavoriteFeatureSelection("");
       setFavoriteFeatureOtherInput("");
       toast.success("You've been added to our waitlist!");
-    } catch (error) {
+    } catch {
       toast.error("Something went wrong. Please try again later.");
     } finally {
       setIsSubmitting(false);
