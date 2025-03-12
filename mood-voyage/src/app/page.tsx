@@ -49,10 +49,10 @@ export default function LandingPage() {
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2 text-center md:text-left"> {/* Center text for small screens */}
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Empower Self-Discovery
+                Uncover Your Why
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl mx-auto md:mx-0">
-                Mood Voyage simplifies the discovery of emotional needs using scientifically-backed NVC principles.
+                  Mood Voyage simplifies the discovery of emotional needs using scientifically-backed NVC principles. Effortlessly uncover insights and deepen self-awareness.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center md:justify-start">
