@@ -6,7 +6,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 import { Heart, BarChart2, Bell, BookOpen, Lock, ArrowRight, CheckCircle, Menu} from "lucide-react"
-// import EmailSignupForm from "@/components/email-signup-form"
+import EmailSignupForm from "@/components/email-signup-form"
 import GitHubStarBadge from "@/components/github-star-badge"
 
 
@@ -356,7 +356,7 @@ export default function LandingPage() {
               </div>
 
               <div className="mx-auto w-full max-w-md">
-                {/* <EmailSignupForm /> */}
+                <EmailSignupForm />
               </div>
             </div>
           </div>
