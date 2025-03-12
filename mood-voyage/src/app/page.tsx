@@ -31,7 +31,7 @@ export default function LandingPage() {
             Features
           </Link>
           <Link href="#about" className="text-sm font-medium hover:text-primary">
-            About NVC
+            About
           </Link>
           <Link href="#benefits" className="text-sm font-medium hover:text-primary">
             Benefits
@@ -112,38 +112,38 @@ export default function LandingPage() {
     </header>
 
       <main className="flex-1">
-{/* Hero Section */} 
-<section className="w-full bg-gradient-to-b from-background to-muted py-16 md:py-8 md:min-h-[calc(100vh-4rem)] md:flex md:items-center md:justify-center">
-  <div className="container px-4 md:px-6 flex items-center">
-    <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px] items-center">
-      <div className="flex flex-col justify-center space-y-4">
-        <div className="space-y-2 text-center md:text-center md:pt-12"> {/* Add top padding on medium screens */}
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-            Uncover Your Why
-          </h1>
-          <p className="max-w-[600px] text-muted-foreground md:text-xl mx-auto">
-            Mood Voyage simplifies the discovery of emotional needs using scientifically-backed NVC principles. Effortlessly uncover insights and deepen self-awareness.
-          </p>
-        </div>
-        <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center md:justify-center">
-          <Button asChild size="lg" className="px-8">
-            <Link href="#signup">Join the Waitlist</Link>
-          </Button>
-          <Button asChild variant="outline" size="lg">
-            <Link href="#about">Learn More</Link>
-          </Button>
+    {/* Hero Section */} 
+    <section className="w-full bg-gradient-to-b from-background to-muted py-16 md:py-8 md:min-h-[calc(100vh-4rem)] md:flex md:items-center md:justify-center">
+      <div className="container px-4 md:px-6 flex items-center">
+        <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px] items-center">
+          <div className="flex flex-col justify-center space-y-4">
+            <div className="space-y-2 text-center md:text-center md:pt-12"> {/* Add top padding on medium screens */}
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                Uncover Your Why
+              </h1>
+              <p className="max-w-[600px] text-muted-foreground md:text-xl mx-auto">
+                Mood Voyage simplifies the discovery of emotional needs using scientifically-backed NVC principles. Effortlessly uncover insights and deepen self-awareness.
+              </p>
+            </div>
+            <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center md:justify-center">
+              <Button asChild size="lg" className="px-8">
+                <Link href="#signup">Join Waitlist</Link>
+              </Button>
+              <Button asChild variant="outline" size="lg">
+                <Link href="#features">Learn More</Link>
+              </Button>
+            </div>
+          </div>
+          <Image
+            src="/undraw_holding-flowers_jc03.svg?height=550&width=550"
+            width={300}
+            height={300}
+            alt="Mood Voyage App Interface"
+            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last"
+          />
         </div>
       </div>
-      <Image
-        src="/undraw_holding-flowers_jc03.svg?height=550&width=550"
-        width={300}
-        height={300}
-        alt="Mood Voyage App Interface"
-        className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last"
-      />
-    </div>
-  </div>
-</section>
+    </section>
 
 
 
@@ -225,7 +225,7 @@ export default function LandingPage() {
           </div>
         </section>
 
-        {/* About NVC Section */}
+        {/* About Section */}
         <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-muted md:min-h-screen flex items-center justify-center">
           <div className="container px-4 md:px-6">
             <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
