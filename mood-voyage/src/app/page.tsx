@@ -219,21 +219,21 @@ export default function LandingPage() {
                 <h3 className="text-xl font-bold mb-4">Research-Backed Results</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <div>
                       <p className="font-medium">Improved empathy and understanding in communication</p>
                       <p className="text-sm text-muted-foreground">(Marlow et al., 2012)</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <div>
                       <p className="font-medium">Reduced stress and increased well-being</p>
                       <p className="text-sm text-muted-foreground">(Wacker & Dziobek, 2018)</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="h-5 w-5 text-primary mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <div>
                       <p className="font-medium">Enhanced relationship satisfaction and conflict resolution skills</p>
                       <p className="text-sm text-muted-foreground">(Nosek et al., 2014)</p>
@@ -246,23 +246,23 @@ export default function LandingPage() {
                 <h3 className="text-xl font-bold mb-4">Mood Voyage Empowers You To</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-2">
-                    <ArrowRight className="h-5 w-5 text-primary mt-0.5" />
+                    <ArrowRight className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <p>Gain clarity on your emotional states</p>
                   </li>
                   <li className="flex items-start gap-2">
-                    <ArrowRight className="h-5 w-5 text-primary mt-0.5" />
+                    <ArrowRight className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <p>Identify patterns in your emotional responses</p>
                   </li>
                   <li className="flex items-start gap-2">
-                    <ArrowRight className="h-5 w-5 text-primary mt-0.5" />
+                    <ArrowRight className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <p>Recognize unfulfilled needs driving your emotions</p>
                   </li>
                   <li className="flex items-start gap-2">
-                    <ArrowRight className="h-5 w-5 text-primary mt-0.5" />
+                    <ArrowRight className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <p>Take informed actions to improve your overall well-being</p>
                   </li>
                   <li className="flex items-start gap-2">
-                    <ArrowRight className="h-5 w-5 text-primary mt-0.5" />
+                    <ArrowRight className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <p>Cultivate more fulfilling relationships</p>
                   </li>
                 </ul>
