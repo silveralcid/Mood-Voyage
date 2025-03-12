@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Heart, BarChart2, Bell, BookOpen, Lock, ArrowRight, CheckCircle, Menu } from "lucide-react"
-import EmailSignupForm from "@/components/email-signup-form"
+// import EmailSignupForm from "@/components/email-signup-form"
 
 export default function LandingPage() {
   return (
@@ -287,7 +287,7 @@ export default function LandingPage() {
               </div>
 
               <div className="mx-auto w-full max-w-md">
-                <EmailSignupForm />
+                {/* <EmailSignupForm /> */}
               </div>
             </div>
           </div>
