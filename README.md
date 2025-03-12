@@ -27,7 +27,7 @@ Research has shown that NVC can:
 - **Intuitive Visualization**: View your emotional patterns and need fulfillment through clear, insightful graphs and charts.
 - **Customizable Reminders**: Set gentle prompts to encourage regular check-ins and self-reflection.
 - **Guided Journaling**: Deepen your understanding with thought-provoking prompts based on your tracked data.
-- **Privacy-Focused**: Your emotional data stays secure and private on your device.
+- **Privacy-Focused**: Your emotional data stays secure, private, and never shared with anyone else.
 
 Mood Voyage simplifies the complex world of emotions, making them more quantifiable and actionable without being overwhelming. By providing a structured approach to emotional awareness based on NVC principles, Mood Voyage empowers users to:
 
