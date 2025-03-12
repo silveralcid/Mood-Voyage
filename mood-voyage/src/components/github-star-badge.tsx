@@ -43,14 +43,14 @@ export default function GitHubStarBadge({ repo, className }: GitHubStarBadgeProp
   }, [repo])
 
   return (
-    <Button asChild variant="outline" size="sm" className={cn("gap-2", className)}>
+    <Button asChild variant="ghost" size="sm" className={cn("gap-2", className)}>
       <Link href={`https://github.com/${repo}`} target="_blank" rel="noopener noreferrer">
         <Github className="h-4 w-4" />
         {isLoading ? (
           "Loading..."
         ) : stars !== null ? (
           <>
-            <span>Star Us on GitHub</span>
+            <span>Star Us!</span>
             <span>{formatStarCount(stars)}</span>
           </>
         ) : (
