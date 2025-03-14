@@ -122,7 +122,7 @@ export default function LandingPage() {
                 Discover Your Why
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl mx-auto">
-                Mood Voyage simplifies the discovery of emotional needs using scientifically-backed NVC principles. Effortlessly uncover insights and deepen self-awareness.
+                Effortlessly uncover insights and deepen self-awareness. Mood Voyage simplifies the discovery of emotional needs using scientifically-backed NVC principles.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center md:justify-center">
@@ -156,7 +156,7 @@ export default function LandingPage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Key Features</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Simplifying the complex world of emotions, making them more quantifiable and actionable.
+                  Simplifying the complex world of emotions, making them more manageable and actionable.
                 </p>
               </div>
             </div>
@@ -314,7 +314,7 @@ export default function LandingPage() {
               </div>
 
               <div className="rounded-lg border p-6 shadow-sm">
-                <h3 className="text-xl font-bold mb-4">Mood Voyage Empowers You To</h3>
+                <h3 className="text-xl font-bold mb-4">Mood Voyage Empowers You</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-2">
                     <ArrowRight className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
@@ -351,7 +351,7 @@ export default function LandingPage() {
                   Be the First to Experience Mood Voyage
                 </h2>
                 <p className="max-w-[600px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mx-auto">
-                  Join our waitlist to receive updates on our launch and get early access to Mood Voyage.
+                  Join our waitlist to receive updates on our launch and get early access.
                 </p>
               </div>
 
