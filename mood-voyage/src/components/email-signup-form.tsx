@@ -73,9 +73,6 @@ export default function EmailSignupForm() {
           <CheckCircle2 className="h-12 w-12 text-primary" />
           <h3 className="text-xl font-bold">Thank You for Joining!</h3>
           <p>We&apos;ll keep you updated on our launch and send you early access information.</p>
-          <Button variant="outline" onClick={() => setIsSubmitted(false)} className="mt-2">
-            Sign up another email
-          </Button>
         </div>
       ) : (
         <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-4 w-full max-w-md">
