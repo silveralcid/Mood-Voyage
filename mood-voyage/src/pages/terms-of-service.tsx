@@ -109,7 +109,7 @@ export default function TermsOfServicePage() {
 
               <div className="space-y-2">
                 <h2 className="text-2xl font-bold">8. Limitation of Liability</h2>
-                <p>Mood Voyage is provided "as is" without warranties of any kind. To the fullest extent permitted by law:</p>
+                <p>Mood Voyage is provided as is without warranties of any kind. To the fullest extent permitted by law:</p>
                 <ul className="ml-6 list-disc space-y-1 text-muted-foreground">
                   <li>We <strong>do not guarantee uninterrupted access</strong> to our services.</li>
                   <li>We <strong>are not responsible for data loss, security breaches, or third-party misuse</strong>.</li>
