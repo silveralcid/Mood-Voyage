@@ -49,87 +49,88 @@ export default function TermsOfServicePage() {
               <div className="space-y-2">
                 <h2 className="text-2xl font-bold">1. Acceptance of Terms</h2>
                 <p>
-                  By accessing or using the Mood Voyage service, you agree to be bound by these Terms of Service. If you
-                  do not agree to these terms, please do not use our service.
+                  By accessing or using Mood Voyage, you agree to be bound by these Terms of Service. If you do not agree with these terms, please discontinue use of our platform.
                 </p>
               </div>
 
               <div className="space-y-2">
                 <h2 className="text-2xl font-bold">2. Description of Service</h2>
                 <p>
-                  Mood Voyage provides tools for emotional intelligence development through Nonviolent Communication
-                  principles. The service includes emotion tracking, needs identification, visualization tools, and
-                  guided journaling.
+                  Mood Voyage provides a digital platform for emotional intelligence development using <strong>Nonviolent Communication (NVC) principles</strong>. Our services include <strong>emotion tracking, needs identification, AI-generated self-reflection insights, visualization tools, and journaling features</strong>.
                 </p>
+                <p>Mood Voyage <strong>is not a medical or mental health service</strong> and does not provide therapy, diagnosis, or treatment. AI-generated insights are for <strong>self-reflection purposes only</strong> and should not be considered professional guidance.</p>
               </div>
 
               <div className="space-y-2">
-                <h2 className="text-2xl font-bold">3. User Accounts</h2>
-                <p>
-                  To use certain features of the service, you may be required to create an account. You are responsible
-                  for maintaining the confidentiality of your account information and for all activities that occur
-                  under your account.
-                </p>
-              </div>
-
-              <div className="space-y-2">
-                <h2 className="text-2xl font-bold">4. User Content</h2>
-                <p>
-                  You retain all rights to any content you submit, post or display on or through the service. By
-                  submitting content to the service, you grant Mood Voyage a worldwide, non-exclusive, royalty-free
-                  license to use, reproduce, and distribute your content in connection with the service.
-                </p>
-              </div>
-
-              <div className="space-y-2">
-                <h2 className="text-2xl font-bold">5. Prohibited Conduct</h2>
-                <p>You agree not to engage in any of the following prohibited activities:</p>
+                <h2 className="text-2xl font-bold">3. User Accounts & Responsibilities</h2>
                 <ul className="ml-6 list-disc space-y-1 text-muted-foreground">
-                  <li>Violating any laws or regulations.</li>
-                  <li>Infringing on the intellectual property rights of others.</li>
-                  <li>
-                    Attempting to interfere with, compromise the system integrity or security, or decipher any
-                    transmissions to or from the servers running the service.
-                  </li>
-                  <li>Using the service for any harmful or malicious purpose.</li>
+                  <li>You must provide accurate and complete registration information.</li>
+                  <li>You are responsible for <strong>maintaining the confidentiality</strong> of your login credentials.</li>
+                  <li>You agree not to share your account with others or use another person’s account.</li>
+                  <li>You must be <strong>at least 18 years old</strong> or have parental consent to use Mood Voyage.</li>
                 </ul>
               </div>
 
               <div className="space-y-2">
-                <h2 className="text-2xl font-bold">6. Limitation of Liability</h2>
-                <p>
-                  To the maximum extent permitted by law, Mood Voyage shall not be liable for any indirect, incidental,
-                  special, consequential or punitive damages, or any loss of profits or revenues, whether incurred
-                  directly or indirectly, or any loss of data, use, goodwill, or other intangible losses.
-                </p>
+                <h2 className="text-2xl font-bold">4. User Content & Privacy</h2>
+                <ul className="ml-6 list-disc space-y-1 text-muted-foreground">
+                  <li>Users retain ownership of their self-reported <strong>emotion logs, journal entries, and personal content</strong>.</li>
+                  <li>By submitting content, you <strong>grant Mood Voyage a limited, non-exclusive, royalty-free license</strong> to use, store, and process the content <strong>solely for service functionality</strong>.</li>
+                  <li>We <strong>do not</strong> sell or share personal data with third parties without explicit user consent.</li>
+                  <li>Users have the right to <strong>delete their data at any time</strong> in accordance with our <a href="#">Privacy Policy</a>.</li>
+                </ul>
               </div>
 
               <div className="space-y-2">
-                <h2 className="text-2xl font-bold">7. Changes to Terms</h2>
-                <p>
-                  We reserve the right to modify these terms at any time. We will provide notice of any material changes
-                  by posting the new terms on the site or via email. Your continued use of the service after such
-                  modifications will constitute your acknowledgment of the modified terms.
-                </p>
+                <h2 className="text-2xl font-bold">5. Prohibited Conduct</h2>
+                <ul className="ml-6 list-disc space-y-1 text-muted-foreground">
+                  <li><strong>Uploading or sharing offensive, harmful, or illegal content.</strong></li>
+                  <li><strong>Attempting to interfere with the security of our platform.</strong></li>
+                  <li><strong>Using Mood Voyage for commercial purposes without authorization.</strong></li>
+                  <li><strong>Inputting medical or health-related information that may violate HIPAA policies.</strong></li>
+                </ul>
               </div>
 
-              {/* <div className="space-y-2">
-                <h2 className="text-2xl font-bold">8. Contact Us</h2>
-                <p>If you have any questions about these Terms, please contact us at:</p>
-                <div className="rounded-lg border p-4 bg-muted/50">
-                  <p>Email: terms@moodvoyage.com</p>
-                  <p>
-                    Or visit our{" "}
-                    <Link href="/contact" className="text-primary hover:underline">
-                      contact page
-                    </Link>
-                  </p>
-                </div>
-              </div> */}
+              <div className="space-y-2">
+                <h2 className="text-2xl font-bold">6. AI Transparency & Limitations</h2>
+                <ul className="ml-6 list-disc space-y-1 text-muted-foreground">
+                  <li>Mood Voyage uses <strong>AI-driven insights</strong> to provide <strong>self-reflection prompts</strong>.</li>
+                  <li>AI-generated insights <strong>are not medical advice</strong> and should not replace professional support.</li>
+                  <li>Users can <strong>opt-out of AI-driven analysis</strong> in their settings.</li>
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <h2 className="text-2xl font-bold">7. Data Security & Compliance</h2>
+                <p>Mood Voyage complies with <strong>GDPR, CCPA, and global data protection regulations</strong>.</p>
+                <p>We implement <strong>AES-256 encryption</strong> to safeguard user data.</p>
+                <p>Users can <strong>request data deletion or export</strong> at any time.</p>
+              </div>
+
+              <div className="space-y-2">
+                <h2 className="text-2xl font-bold">8. Limitation of Liability</h2>
+                <p>Mood Voyage is provided "as is" without warranties of any kind. To the fullest extent permitted by law:</p>
+                <ul className="ml-6 list-disc space-y-1 text-muted-foreground">
+                  <li>We <strong>do not guarantee uninterrupted access</strong> to our services.</li>
+                  <li>We <strong>are not responsible for data loss, security breaches, or third-party misuse</strong>.</li>
+                  <li>We <strong>are not liable for any indirect or consequential damages</strong> arising from use of our platform.</li>
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <h2 className="text-2xl font-bold">9. Modifications to Terms</h2>
+                <p>We reserve the right to update these Terms at any time. Users will be notified of material changes via email or in-app notifications.</p>
+              </div>
+
+              <div className="space-y-2">
+                <h2 className="text-2xl font-bold">10. Contact Information</h2>
+                <p>For any questions regarding these Terms, please contact <strong>support@moodvoyage.com</strong>.</p>
+              </div>
             </div>
           </div>
         </section>
       </main>
+
 
       <footer className="w-full border-t py-6 md:py-0">
         <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
